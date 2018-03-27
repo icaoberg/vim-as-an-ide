@@ -3,8 +3,8 @@
 "
 " How I configure Vim :P
 "
+" Updated: @icaoberg
 
-" Gotta be first
 set nocompatible
 
 filetype off
@@ -117,8 +117,8 @@ let g:nerdtree_tabs_open_on_console_startup = 0
 
 
 " ----- scrooloose/syntastic settings -----
-let g:syntastic_error_symbol = '✘'
-let g:syntastic_warning_symbol = "▲"
+let g:syntastic_error_symbol = 'ERROR!'
+let g:syntastic_warning_symbol = "WARNING!"
 augroup mySyntastic
   au!
   au FileType tex let b:syntastic_mode = "passive"
